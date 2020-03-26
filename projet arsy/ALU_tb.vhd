@@ -21,12 +21,12 @@ begin
 	process
 		begin
 			op<= "00";
-			a<= X"00000000";
-			b<= X"FFFFFFFF";
+			b<= X"00000000";
+			a<= X"FFFFFFFF";
 			wait for 100 ns ;
 			op<= "10";
-			a<= X"00000011";
-			b<= X"FFFFFFFF";
+			b<= X"00000011";
+			a<= X"FFFFFFFF";
 			wait for 100 ns ;
 		
 	end process;
