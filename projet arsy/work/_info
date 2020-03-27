@@ -9,24 +9,24 @@ z2
 cModel Technology
 dD:/E2I/Semestre 2/ARSY/projet arsy
 Ealu
-Z0 w1585311987
+Z0 w1585245404
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/E2I/Semestre 2/Github/arsy/projet arsy
-Z5 8D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU.vhd
-Z6 FD:/E2I/Semestre 2/Github/arsy/projet arsy/ALU.vhd
+Z4 dD:/Mes_Projets/arsy/projet arsy
+Z5 8D:/Mes_Projets/arsy/projet arsy/ALU.vhd
+Z6 FD:/Mes_Projets/arsy/projet arsy/ALU.vhd
 l0
 L5
 VBPJNi`aC[YnBD4`[S1Td`3
 !s100 LhJGbm@E:O`GlS<z^gF9?0
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1585315021
+Z8 !s110 1585340064
 !i10b 1
-Z9 !s108 1585315020.000000
-Z10 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU.vhd|
-Z11 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU.vhd|
+Z9 !s108 1585340064.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/ALU.vhd|
+Z11 !s107 D:/Mes_Projets/arsy/projet arsy/ALU.vhd|
 !i113 1
 Z12 o-work work
 Z13 tExplicit 1 CvgOpt 0
@@ -50,13 +50,13 @@ R11
 R12
 R13
 Ealu_tb
-Z15 w1585313410
+R0
 R1
 R2
 R3
 R4
-Z16 8D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU_tb.vhd
-Z17 FD:/E2I/Semestre 2/Github/arsy/projet arsy/ALU_tb.vhd
+Z15 8D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd
+Z16 FD:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd
 l0
 L5
 V8J9HhUhcbAhlGJgJ4=f4f2
@@ -65,9 +65,9 @@ R7
 32
 R8
 !i10b 1
-Z18 !s108 1585315021.000000
-Z19 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU_tb.vhd|
-Z20 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/ALU_tb.vhd|
+R9
+Z17 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd|
+Z18 !s107 D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd|
 !i113 1
 R12
 R13
@@ -85,20 +85,20 @@ R7
 32
 R8
 !i10b 1
+R9
+R17
 R18
-R19
-R20
 !i113 1
 R12
 R13
 Eass_ual_reg
-R15
+R0
 R1
 R2
 R3
 R4
-Z21 8D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg.vhd
-Z22 FD:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg.vhd
+Z19 8D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd
+Z20 FD:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd
 l0
 L5
 V@ahiC4zDgH`9X]G<iAZQV3
@@ -107,19 +107,19 @@ R7
 32
 R8
 !i10b 1
-R18
-Z23 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg.vhd|
-Z24 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg.vhd|
+R9
+Z21 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd|
+Z22 !s107 D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd|
 !i113 1
 R12
 R13
 Aarc
 R14
-Z25 DEx4 work 8 registre 0 22 k:]TM4>9joL0UIDhD^oc;2
+Z23 DEx4 work 8 registre 0 22 k:]TM4>9joL0UIDhD^oc;2
 R1
 R2
 R3
-Z26 DEx4 work 11 ass_ual_reg 0 22 @ahiC4zDgH`9X]G<iAZQV3
+Z24 DEx4 work 11 ass_ual_reg 0 22 @ahiC4zDgH`9X]G<iAZQV3
 l21
 L18
 VX4L^?`Z=THHMg:kKoo__d2
@@ -128,20 +128,20 @@ R7
 32
 R8
 !i10b 1
-R18
-R23
-R24
+R9
+R21
+R22
 !i113 1
 R12
 R13
 Eass_ual_reg_tb
-R15
+R0
 R1
 R2
 R3
 R4
-Z27 8D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg_tb.vhd
-Z28 FD:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg_tb.vhd
+Z25 8D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd
+Z26 FD:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd
 l0
 L5
 V`;JbAAiHA:?dUVnJThn]J0
@@ -150,14 +150,14 @@ R7
 32
 R8
 !i10b 1
-R18
-Z29 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg_tb.vhd|
-Z30 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/Ass_ual_reg_tb.vhd|
+R9
+Z27 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd|
+Z28 !s107 D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R26
+R24
 R1
 R2
 R3
@@ -170,20 +170,20 @@ R7
 32
 R8
 !i10b 1
-R18
-R29
-R30
+R9
+R27
+R28
 !i113 1
 R12
 R13
 Eassemblage_ut
-R15
+R0
 R1
 R2
 R3
 R4
-Z31 8D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT.vhd
-Z32 FD:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT.vhd
+Z29 8D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd
+Z30 FD:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd
 l0
 L5
 VUV7GnNJnDFM7l^3XXYWDl1
@@ -192,22 +192,22 @@ R7
 32
 R8
 !i10b 1
-R18
-Z33 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT.vhd|
-Z34 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT.vhd|
+R9
+Z31 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd|
+Z32 !s107 D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd|
 !i113 1
 R12
 R13
 Aarc
-Z35 DEx4 work 9 extention 0 22 ;n]83M5VdB8dlD]A[CE@=3
-Z36 DEx4 work 7 memoire 0 22 8KiNI[ffnOC;MalCc;5]N1
-Z37 DEx4 work 4 mux2 0 22 jYJY[Q_@79CW1APfgDZ4E0
+Z33 DEx4 work 9 extention 0 22 ;n]83M5VdB8dlD]A[CE@=3
+Z34 DEx4 work 7 memoire 0 22 8KiNI[ffnOC;MalCc;5]N1
+Z35 DEx4 work 4 mux2 0 22 jYJY[Q_@79CW1APfgDZ4E0
 R14
-R25
+R23
 R1
 R2
 R3
-Z38 DEx4 work 13 assemblage_ut 0 22 UV7GnNJnDFM7l^3XXYWDl1
+Z36 DEx4 work 13 assemblage_ut 0 22 UV7GnNJnDFM7l^3XXYWDl1
 l26
 L20
 VE]Gak3fR2c4`n7z8;CiYP1
@@ -216,36 +216,36 @@ R7
 32
 R8
 !i10b 1
-R18
-R33
-R34
+R9
+R31
+R32
 !i113 1
 R12
 R13
 Eassemblage_ut_tb
-R15
+R0
 R1
 R2
 R3
 R4
-Z39 8D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT_tb.vhd
-Z40 FD:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT_tb.vhd
+Z37 8D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd
+Z38 FD:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd
 l0
 L5
 V7mo:Z;cLPg6n`PfJHNjAZ3
 !s100 JbV?S6LAF]Qe1R3?z1Uc[2
 R7
 32
-Z41 !s110 1585315022
+R8
 !i10b 1
-R18
-Z42 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT_tb.vhd|
-Z43 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/assemblage_UT_tb.vhd|
+R9
+Z39 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd|
+Z40 !s107 D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R38
+R36
 R1
 R2
 R3
@@ -256,33 +256,74 @@ VPD_dF:;1E^zGRZ_Folaze1
 !s100 TPnC:jo>76O9_KW6?J?bc3
 R7
 32
-R41
+R8
 !i10b 1
-R18
-R42
-R43
+R9
+R39
+R40
 !i113 1
 R12
 R13
-Eextention
-R15
+Edecodeur
+Z41 w1585339979
 R1
 R2
 R3
 R4
-Z44 8D:/E2I/Semestre 2/Github/arsy/projet arsy/extention.vhd
-Z45 FD:/E2I/Semestre 2/Github/arsy/projet arsy/extention.vhd
+Z42 8D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd
+Z43 FD:/Mes_Projets/arsy/projet arsy/Decodeur.vhd
+l0
+L5
+V=`fGaNF4D^l^IZz7CZURU0
+!s100 YD?SzM3aDbnd1]e9[0g1i2
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd|
+Z45 !s107 D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z46 DEx4 work 8 decodeur 0 22 =`fGaNF4D^l^IZz7CZURU0
+l28
+L21
+VW8eJD;`oFWo=V]cE:bbzA3
+!s100 69i]<H?LBk[9DRaV9@ROE1
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Eextention
+R0
+R1
+R2
+R3
+R4
+Z47 8D:/Mes_Projets/arsy/projet arsy/extention.vhd
+Z48 FD:/Mes_Projets/arsy/projet arsy/extention.vhd
 l0
 L5
 V;n]83M5VdB8dlD]A[CE@=3
 !s100 gD4:a?P2L3jHWMB[LBf@52
 R7
 32
-R41
+R8
 !i10b 1
-Z46 !s108 1585315022.000000
-Z47 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/extention.vhd|
-Z48 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/extention.vhd|
+R9
+Z49 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/extention.vhd|
+Z50 !s107 D:/Mes_Projets/arsy/projet arsy/extention.vhd|
 !i113 1
 R12
 R13
@@ -290,45 +331,45 @@ Aarc
 R1
 R2
 R3
-R35
+R33
 l20
 L16
 V7;z253<XeGRhKJ]PEm<2?0
 !s100 f`JUR^DTXDLM7KMEfz7D@3
 R7
 32
-R41
+R8
 !i10b 1
-R46
-R47
-R48
+R9
+R49
+R50
 !i113 1
 R12
 R13
 Eextention_tb
-R15
+R0
 R1
 R2
 R3
 R4
-Z49 8D:/E2I/Semestre 2/Github/arsy/projet arsy/extention_tb.vhd
-Z50 FD:/E2I/Semestre 2/Github/arsy/projet arsy/extention_tb.vhd
+Z51 8D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd
+Z52 FD:/Mes_Projets/arsy/projet arsy/extention_tb.vhd
 l0
 L5
 VIPR[jPZl58kOY7eY@kM_I2
 !s100 0L_D^gNThQ3PjGBnQ<>KB3
 R7
 32
-R41
+R8
 !i10b 1
-R46
-Z51 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/extention_tb.vhd|
-Z52 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/extention_tb.vhd|
+R9
+Z53 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd|
+Z54 !s107 D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R35
+R33
 R1
 R2
 R3
@@ -339,33 +380,33 @@ VAa:lNYYb4N_IlFfOddX@11
 !s100 nX=HjQBo1k=LI?<]^[HFO0
 R7
 32
-R41
+R8
 !i10b 1
-R46
-R51
-R52
+R9
+R53
+R54
 !i113 1
 R12
 R13
 Ememoire
-R15
+R0
 R1
 R2
 R3
 R4
-Z53 8D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire.vhd
-Z54 FD:/E2I/Semestre 2/Github/arsy/projet arsy/memoire.vhd
+Z55 8D:/Mes_Projets/arsy/projet arsy/memoire.vhd
+Z56 FD:/Mes_Projets/arsy/projet arsy/memoire.vhd
 l0
 L5
 V8KiNI[ffnOC;MalCc;5]N1
 !s100 RonAemYMgCPJSBR`<RKg92
 R7
 32
-R41
+R8
 !i10b 1
-R46
-Z55 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire.vhd|
-Z56 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire.vhd|
+R9
+Z57 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire.vhd|
+Z58 !s107 D:/Mes_Projets/arsy/projet arsy/memoire.vhd|
 !i113 1
 R12
 R13
@@ -373,40 +414,40 @@ Aarc
 R1
 R2
 R3
-R36
+R34
 l34
 L16
 Viz;TF@_[kJbXzi=DWaHXU1
 !s100 mRXAGH51`j:Bd7fW0O7CI3
 R7
 32
-R41
+R8
 !i10b 1
-R46
-R55
-R56
+R9
+R57
+R58
 !i113 1
 R12
 R13
 Ememoire_instr
-Z57 w1585315494
+Z59 w1585325781
 R1
 R2
 R3
 R4
-Z58 8D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire_instr.vhd
-Z59 FD:/E2I/Semestre 2/Github/arsy/projet arsy/memoire_instr.vhd
+Z60 8D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd
+Z61 FD:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd
 l0
 L5
 VM89b9b:7EjzkTO`CVmbHM0
 !s100 hNnm^cM`7QeZKL2@2iXI=3
 R7
 32
-Z60 !s110 1585315516
+Z62 !s110 1585340065
 !i10b 1
-Z61 !s108 1585315516.000000
-Z62 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire_instr.vhd|
-Z63 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/memoire_instr.vhd|
+R9
+Z63 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd|
+Z64 !s107 D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd|
 !i113 1
 R12
 R13
@@ -414,40 +455,82 @@ Aarc
 R1
 R2
 R3
-Z64 DEx4 work 13 memoire_instr 0 22 M89b9b:7EjzkTO`CVmbHM0
+Z65 DEx4 work 13 memoire_instr 0 22 M89b9b:7EjzkTO`CVmbHM0
 l38
 L14
 V4fU`Kg]>>mE>]=C0^>g5_1
 !s100 A48N@ZQ1g<lmU=c?UXaX>1
 R7
 32
-R60
-!i10b 1
-R61
 R62
+!i10b 1
+R9
 R63
+R64
 !i113 1
 R12
 R13
-Emux2
-R15
+Ememoire_tb
+Z66 w1585327294
 R1
 R2
 R3
 R4
-Z65 8D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2.vhd
-Z66 FD:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2.vhd
+Z67 8D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd
+Z68 FD:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd
+l0
+L5
+Vi2dUaDIDaa_^;U1>I@bHe1
+!s100 :=GcgU;lc6K[=4A`WaJe83
+R7
+32
+R62
+!i10b 1
+Z69 !s108 1585340065.000000
+Z70 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd|
+Z71 !s107 D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd|
+!i113 1
+R12
+R13
+Aarc
+R34
+R1
+R2
+R3
+DEx4 work 10 memoire_tb 0 22 i2dUaDIDaa_^;U1>I@bHe1
+l16
+L9
+V`L5;6TW;ZLfB>nUPGagTh2
+!s100 ocoP3S;ZgGMCO3B5GEf^d0
+R7
+32
+R62
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R12
+R13
+Emux2
+R0
+R1
+R2
+R3
+R4
+Z72 8D:/Mes_Projets/arsy/projet arsy/MUX2.vhd
+Z73 FD:/Mes_Projets/arsy/projet arsy/MUX2.vhd
 l0
 L5
 VjYJY[Q_@79CW1APfgDZ4E0
 !s100 AN;oK<D<DM;_1a`7B[lGa3
 R7
 32
-Z67 !s110 1585315023
+R62
 !i10b 1
-Z68 !s108 1585315023.000000
-Z69 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2.vhd|
-Z70 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2.vhd|
+R69
+Z74 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/MUX2.vhd|
+Z75 !s107 D:/Mes_Projets/arsy/projet arsy/MUX2.vhd|
 !i113 1
 R12
 R13
@@ -455,45 +538,45 @@ Aarc
 R1
 R2
 R3
-R37
+R35
 l21
 L17
 VTf4OdO1K>CWlGAf^P:Da12
 !s100 >2fSa5GKb?3:_O]Z2QNGk0
 R7
 32
-R67
+R62
 !i10b 1
-R68
 R69
-R70
+R74
+R75
 !i113 1
 R12
 R13
 Emux2_tb
-R15
+R0
 R1
 R2
 R3
 R4
-Z71 8D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2_tb.vhd
-Z72 FD:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2_tb.vhd
+Z76 8D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd
+Z77 FD:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd
 l0
 L5
 V1=LOA8K>]4b]^e9mP2a@52
 !s100 JD3nW5zjX0mB1[bnjnB5Q3
 R7
 32
-R67
+R62
 !i10b 1
-R68
-Z73 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2_tb.vhd|
-Z74 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/MUX2_tb.vhd|
+R69
+Z78 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd|
+Z79 !s107 D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R37
+R35
 R1
 R2
 R3
@@ -504,33 +587,33 @@ V7PgSM9QiBzbE46IkBjhc;0
 !s100 M=NI@abR`S:0^XI0_ON;K3
 R7
 32
-R67
+R62
 !i10b 1
-R68
-R73
-R74
+R69
+R78
+R79
 !i113 1
 R12
 R13
 Epc
-R15
+R0
 R1
 R2
 R3
 R4
-Z75 8D:/E2I/Semestre 2/Github/arsy/projet arsy/PC.vhd
-Z76 FD:/E2I/Semestre 2/Github/arsy/projet arsy/PC.vhd
+Z80 8D:/Mes_Projets/arsy/projet arsy/PC.vhd
+Z81 FD:/Mes_Projets/arsy/projet arsy/PC.vhd
 l0
 L5
 VoZO7EZzS<K;jC2573LOPZ1
 !s100 B`>3^9iYGUTmNFJX=14GO2
 R7
 32
-Z77 !s110 1585315105
+R62
 !i10b 1
-Z78 !s108 1585315105.000000
-Z79 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/PC.vhd|
-Z80 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/PC.vhd|
+R69
+Z82 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/PC.vhd|
+Z83 !s107 D:/Mes_Projets/arsy/projet arsy/PC.vhd|
 !i113 1
 R12
 R13
@@ -538,40 +621,81 @@ Aarc
 R1
 R2
 R3
-Z81 DEx4 work 2 pc 0 22 oZO7EZzS<K;jC2573LOPZ1
+Z84 DEx4 work 2 pc 0 22 oZO7EZzS<K;jC2573LOPZ1
 l17
 L15
 VKdJl5VK468h?zJ]XTcd8X2
 !s100 2:<Mi=Pa@o=dU2Z>TeoXS0
 R7
 32
-R77
+R62
 !i10b 1
-R78
-R79
-R80
+R69
+R82
+R83
 !i113 1
 R12
 R13
-Eregistre
-R15
+Epsr
+Z85 w1585338196
 R1
 R2
 R3
 R4
-Z82 8D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre.vhd
-Z83 FD:/E2I/Semestre 2/Github/arsy/projet arsy/Registre.vhd
+Z86 8D:/Mes_Projets/arsy/projet arsy/PSR.vhd
+Z87 FD:/Mes_Projets/arsy/projet arsy/PSR.vhd
+l0
+L5
+VdF`7KPj?Xd;:ICiDQ]Si30
+!s100 ]bK_GEBji2`3MhiS4d3WE0
+R7
+32
+R62
+!i10b 1
+R69
+Z88 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/PSR.vhd|
+Z89 !s107 D:/Mes_Projets/arsy/projet arsy/PSR.vhd|
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+Z90 DEx4 work 3 psr 0 22 dF`7KPj?Xd;:ICiDQ]Si30
+l18
+L15
+VhZ8_gQTbNSV>zbLEXEDkC0
+!s100 hW>@@IHem6U3kdhFE^J]i0
+R7
+32
+R62
+!i10b 1
+R69
+R88
+R89
+!i113 1
+R12
+R13
+Eregistre
+R0
+R1
+R2
+R3
+R4
+Z91 8D:/Mes_Projets/arsy/projet arsy/Registre.vhd
+Z92 FD:/Mes_Projets/arsy/projet arsy/Registre.vhd
 l0
 L5
 Vk:]TM4>9joL0UIDhD^oc;2
 !s100 eQd>0dP78ZO:WAeM2O?R@2
 R7
 32
-R67
+R62
 !i10b 1
-R68
-Z84 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre.vhd|
-Z85 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre.vhd|
+R69
+Z93 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Registre.vhd|
+Z94 !s107 D:/Mes_Projets/arsy/projet arsy/Registre.vhd|
 !i113 1
 R12
 R13
@@ -579,45 +703,45 @@ Aarc
 R1
 R2
 R3
-R25
+R23
 l34
 L16
 Via7U_mfIRK7Fc4^cUZ>Ie1
 !s100 [Ab]V<3;K@hEnW@XJ<Xj00
 R7
 32
-R67
+R62
 !i10b 1
-R68
-R84
-R85
+R69
+R93
+R94
 !i113 1
 R12
 R13
 Eregistre_tb
-R15
+R0
 R1
 R2
 R3
 R4
-Z86 8D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre_tb.vhd
-Z87 FD:/E2I/Semestre 2/Github/arsy/projet arsy/Registre_tb.vhd
+Z95 8D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd
+Z96 FD:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd
 l0
 L5
 VK^Z7HiJjC[mR8Q=b@fmMJ2
 !s100 2iT0bc9SXV;=9l6`hzh`C0
 R7
 32
-Z88 !s110 1585315024
+R62
 !i10b 1
-R68
-Z89 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre_tb.vhd|
-Z90 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/Registre_tb.vhd|
+R69
+Z97 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd|
+Z98 !s107 D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R25
+R23
 R1
 R2
 R3
@@ -628,99 +752,183 @@ VHzMOKMj]TF;ae`RhF`EXL2
 !s100 @6z?82HA^d2gZ`[lPl@In3
 R7
 32
-R88
+R62
 !i10b 1
-R68
-R89
-R90
+R69
+R97
+R98
 !i113 1
 R12
 R13
-Eunite_gestion_instr
-Z91 w1585315324
+Eunite_de_controle
+Z99 w1585340049
 R1
 R2
 R3
 R4
-Z92 8D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr.vhd
-Z93 FD:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr.vhd
+Z100 8D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd
+Z101 FD:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd
+l0
+L5
+VKU7`eb^gYgEzJ9oYGlmSl0
+!s100 dj`3IAM:Icdf1QK?7^0_U1
+R7
+32
+R62
+!i10b 1
+R69
+Z102 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd|
+Z103 !s107 D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd|
+!i113 1
+R12
+R13
+Aarc
+R90
+R46
+R1
+R2
+R3
+DEx4 work 17 unite_de_controle 0 22 KU7`eb^gYgEzJ9oYGlmSl0
+l29
+L23
+VD=BXfB2<^mJ`^kKiN[F9P3
+!s100 `a<kY<_K4>Ehe4H@ni[jH1
+R7
+32
+R62
+!i10b 1
+R69
+R102
+R103
+!i113 1
+R12
+R13
+Eunite_de_controle_psr
+Z104 w1585326107
+R1
+R2
+R3
+R4
+R100
+R101
+l0
+L5
+VlD9HNNn`]M4U7@G0Mn?:L0
+!s100 DG]M9fL]OB1U0E6Y>YYQ31
+R7
+32
+Z105 !s110 1585326116
+!i10b 1
+Z106 !s108 1585326116.000000
+R102
+R103
+!i113 1
+R12
+R13
+Aarc
+R1
+R2
+R3
+DEx4 work 21 unite_de_controle_psr 0 22 lD9HNNn`]M4U7@G0Mn?:L0
+l18
+L15
+V[nd`Xj09D:HF2Zh5Lc6SX1
+!s100 T=h8I^;YS<o;JE3j@m?X]2
+R7
+32
+R105
+!i10b 1
+R106
+R102
+R103
+!i113 1
+R12
+R13
+Eunite_gestion_instr
+R59
+R1
+R2
+R3
+R4
+Z107 8D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd
+Z108 FD:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd
 l0
 L5
 VaG:<;9R4bD[I=2ZOB:i8V2
 !s100 OPKk;^`Q<o?L=`nDFfN`V0
 R7
 32
-Z94 !s110 1585315519
+R62
 !i10b 1
-Z95 !s108 1585315519.000000
-Z96 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr.vhd|
-Z97 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr.vhd|
+R69
+Z109 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd|
+Z110 !s107 D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd|
 !i113 1
 R12
 R13
 Aarc
+R33
+R65
 R35
-R64
-R37
 R14
-R81
+R84
 R1
 R2
 R3
-Z98 DEx4 work 19 unite_gestion_instr 0 22 aG:<;9R4bD[I=2ZOB:i8V2
+Z111 DEx4 work 19 unite_gestion_instr 0 22 aG:<;9R4bD[I=2ZOB:i8V2
 l21
 L15
 VRA_aJ5UK>iVPn=dS[[J?j3
 !s100 64m7BCAn_4T<45_D1QPBD3
 R7
 32
-R94
+R62
 !i10b 1
-R95
-R96
-R97
+R69
+R109
+R110
 !i113 1
 R12
 R13
 Eunite_gestion_instr_tb
-Z99 w1585315295
+R59
 R1
 R2
 R3
 R4
-Z100 8D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr_tb.vhd
-Z101 FD:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr_tb.vhd
+Z112 8D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd
+Z113 FD:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd
 l0
 L5
 VKHnAeig>z2OM2MiB79FmB2
 !s100 lJGAI_cFC2OdiH[8ajD8=1
 R7
 32
-Z102 !s110 1585315521
+R62
 !i10b 1
-Z103 !s108 1585315521.000000
-Z104 !s90 -reportprogress|300|-work|work|D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr_tb.vhd|
-Z105 !s107 D:/E2I/Semestre 2/Github/arsy/projet arsy/unite_gestion_instr_tb.vhd|
+R69
+Z114 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd|
+Z115 !s107 D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R98
+R111
 R1
 R2
 R3
-Z106 DEx4 work 22 unite_gestion_instr_tb 0 22 KHnAeig>z2OM2MiB79FmB2
+Z116 DEx4 work 22 unite_gestion_instr_tb 0 22 KHnAeig>z2OM2MiB79FmB2
 l15
 L9
-Z107 V8SFeYk2I2J]e5llGmkJY`1
-Z108 !s100 RfkAO]NF01imiAFU>l3na0
+Z117 V8SFeYk2I2J]e5llGmkJY`1
+Z118 !s100 RfkAO]NF01imiAFU>l3na0
 R7
 32
-R102
+R62
 !i10b 1
-R103
-R104
-R105
+R69
+R114
+R115
 !i113 1
 R12
 R13

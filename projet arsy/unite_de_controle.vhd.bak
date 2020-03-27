@@ -5,7 +5,6 @@ use IEEE.NUMERIC_STD.ALL;		-- definit les sous-types entier "signed" ou "unsigne
 entity unite_de_controle is 
 port(
 	--Definitions des variables d'entrees et sorties
-		CLK, Rst: in std_logic;
 		instruction : in std_logic_vector(31 downto 0);
 		nPCsel, RegWr, RegSel: out std_logic;
 		ALUSrc, MemWr, WrSrc : out std_logic;
