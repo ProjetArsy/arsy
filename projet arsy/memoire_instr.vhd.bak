@@ -6,7 +6,7 @@ entity memoire_instr is
 	port(
 	--Definitions des variables d'entrees et sorties
 		Instruction : out std_logic_vector (31 downto 0);
-		Addr : in std_logic_vector (32 downto 0)
+		Addr : in std_logic_vector (31 downto 0)
 
 	);
 end entity;
@@ -22,6 +22,13 @@ architecture arc of memoire_instr is
 			for i in 63 downto 0 loop
 			result (i) := (others=>'0');
 			end loop;
+			result(1) := X"00000001";
+			result(2) := X"00000010";
+			result(3) := X"00000011";
+			result(4) := X"00000100";
+			result(5) := X"00000101";
+			result(6) := X"00000110";
+			result(7) := X"00000111";
 			return result;
 	end init_banc;
 

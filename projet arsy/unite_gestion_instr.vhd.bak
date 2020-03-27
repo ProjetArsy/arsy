@@ -14,17 +14,15 @@ end entity;
 
 architecture arc of unite_gestion_instr is
 	
-	signal op : std_logic_vector(1 downto 0) := "00";
-	signal number1 : std_logic_vector(31 downto 0) := 0x"00000001";
 	signal Addr : std_logic_vector (31 downto 0);
 	signal S_Alu1, S_Alu_Offset, S_Offset, S_MUX:  std_logic_vector(31 downto 0);
 	signal n_Alu1, n_Alu_Offset: std_logic;
 
 	begin
 		uut_PC: entity work.PC(arc) port map(CLK,Rst,S_MUX,Addr);
-		uut_ALU_Plus1: entity work.ALU(arc) port map(Addr,number1,op,S_Alu1,n_Alu1);
+		uut_ALU_Plus1: entity work.ALU(arc) port map(Addr,X"00000001","00",S_Alu1,n_Alu1);
 		uut_MUX: entity work.MUX2(arc) port map(S_Alu1,S_Alu_Offset,nPCsel,S_MUX);
 		uut_memoire_instr: entity work.memoire_instr(arc) port map(Instruction, Addr);
-		uut_ALU_Plus1_PlusOffset: entity work.ALU(arc) port map(S_Offset,S_Alu1,op,S_Alu_Offset,n_Alu_Offset);
+		uut_ALU_Plus1_PlusOffset: entity work.ALU(arc) port map(S_Offset,S_Alu1,"00",S_Alu_Offset,n_Alu_Offset);
 		uut_extention: entity work.extention(arc) generic map(24) port map(Offset,S_Offset);
 end arc;

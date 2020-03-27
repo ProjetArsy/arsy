@@ -22,6 +22,13 @@ architecture arc of memoire_instr is
 			for i in 63 downto 0 loop
 			result (i) := (others=>'0');
 			end loop;
+			result(1) := X"00000001";
+			result(2) := X"00000002";
+			result(3) := X"00000003";
+			result(4) := X"00000004";
+			result(5) := X"00000005";
+			result(6) := X"00000006";
+			result(7) := X"00000007";
 			return result;
 	end init_banc;
 

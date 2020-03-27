@@ -6,7 +6,7 @@ entity unite_gestion_instr is
 port(
 	--Definitions des variables d'entrees et sorties
 		CLK, Rst, nPCsel : in std_logic;
-		Offset : in std_logic_vector(24 downto 0);
+		Offset : in std_logic_vector(23 downto 0);
 		Instruction : out std_logic_vector (31 downto 0)
 		
 		);
