@@ -16,7 +16,6 @@ architecture arc of Registre_tb is
 		uut: entity work.Registre port map(CLK,We,Rst,W,Ra,Rb,Rw,A,B);
 		process
 			begin
-			-- A continuer
-			Wait for 100 ps; 
+			-- A continuer 
 		end process;
 	end arc;

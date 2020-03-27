@@ -40,7 +40,7 @@ architecture arc of Registre is
 						
 					else
 						if We = '1' then
-							Banc(to_integer(unsigned(Rw)))<=W;
+							banc(to_integer(unsigned(Rw)))<=W;
 						end if;
 						
 					end if;
@@ -48,6 +48,6 @@ architecture arc of Registre is
 
 		end process;
 		
-		A <= Banc(to_integer(unsigned(Ra)));
-		B <= Banc(to_integer(unsigned(Rb)));
+		A <= banc(to_integer(unsigned(Ra)));
+		B <= banc(to_integer(unsigned(Rb)));
 end arc;

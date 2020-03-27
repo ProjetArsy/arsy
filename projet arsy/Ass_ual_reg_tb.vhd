@@ -8,77 +8,30 @@ end entity;
 
 architecture arc of Ass_ual_reg_tb is
 		--Definitions des variables d'entrees et sorties
-		signal We, Rst :  std_logic;
-		signal CLK : std_logic :='0';
+		signal CLK, We, Rst :  std_logic;
+		signal W :  std_logic_vector(31 downto 0);
 		signal Ra, Rb, Rw :  std_logic_vector(3 downto 0);
 		signal op:  std_logic_vector (1 downto 0);
+		signal y:  std_logic_vector (31 downto 0);
 		--Bit de signe 
 		signal n:  std_logic;
 		
 	begin
-		uut: entity work.Ass_ual_reg(arc) port map(CLK,We,Rst,Ra,Rb,Rw,op,n);
+		uut: entity work.Ass_ual_reg(arc) port map(CLK,We,Rst,W,Ra,Rb,Rw,op,y,n);
 		
 		process
 			begin
-			
-			--R1 = R15 = 48
-			wait for 100 ps ;
 			CLK<='0';
+			W<=y;
 			Rst<='0';
 			op<="01";
 			We<='1';
 			Rw<="0001";
-			Rb<="1111";
-			wait for 100 ps ;
-			CLK<='1';
-
-			--R1 = R1 + R15 = 96
-			wait for 100 ps ;
-			CLK<='0';
-			Rst<='0';
-			op<="00";
-			We<='1';
-			Ra<="0001";
-			Rw<="0001";
-			Rb<="1111";
-			wait for 100 ps ;
-			CLK<='1';
-
-			--R2 = R1 + R15 = 144
-			wait for 100 ps ;
-			CLK<='0';
-			Rst<='0';
-			op<="00";
-			We<='1';
-			Ra<="0001";
-			Rw<="0010";
-			Rb<="1111";
+			Ra<="1111";
 			wait for 100 ps ;
 			CLK<='1';
 			
-			--R3 = R1 - R15 = 48
-			wait for 100 ps ;
-			CLK<='0';
-			Rst<='0';
-			op<="10";
-			We<='1';
-			Ra<="0001";
-			Rw<="0011";
-			Rb<="1111";
-			wait for 100 ps ;
-			CLK<='1';
 			
-			--R5 = R7 - R15 = -48
-			wait for 100 ps ;
-			CLK<='0';
-			Rst<='0';
-			op<="10";
-			We<='1';
-			Ra<="0111";
-			Rw<="0101";
-			Rb<="1111";
-			wait for 100 ps ;
-			CLK<='1';					
 			
 		end process;
 		
