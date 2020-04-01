@@ -1,0 +1,69 @@
+library IEEE;				-- type boolean, bit, character, severity_level
+use IEEE.STD_LOGIC_1164.ALL;		-- definit les types std_logic , std_logic_vector , std_ulogic, les opÃ©rateurs logiques et les fonctions de recherches de fronts rising_edge() et falling_edge(). introduit par IEE 1164 en 1992.
+use IEEE.NUMERIC_STD.ALL;		-- definit les sous-types entier "signed" ou "unsigned", introduit par IEEE 1076.3
+
+entity memoire is 
+	port(
+	--Definitions des variables d'entrees et sorties
+		CLK, WrEn , Rst : in std_logic;
+		DataIn : in std_logic_vector(31 downto 0);
+		DataOut : out std_logic_vector (31 downto 0);
+		Addr : in std_logic_vector (5 downto 0)
+
+	);
+end entity;
+
+architecture arc of memoire is
+
+	-- Declaration Type Tableau Memoire
+	type table is array (63 downto 0) of std_logic_vector ( 31 downto 0);
+	-- Fonction d'Initialisation du Banc de Registres
+	function init_banc return table is
+		variable result : table;
+		begin 
+			for i in 63 downto 0 loop
+			result (i) := (others=>'0');
+			end loop;
+			result (15):=X"00000030";
+			
+			-- Initialisation pour le test finale
+				result(32) := X"00000001";
+				result(33) := X"00000002";
+				result(33) := X"00000003";
+				result(35) := X"00000004";
+				result(36) := X"00000005";
+				result(37) := X"00000006";
+				result(38) := X"00000007";
+				result(39) := X"00000008";
+				result(40) := X"00000009";
+				result(41) := X"0000000A";
+				result(41) := X"0000000B";
+			
+			-- Initialisation pour le test finale
+			
+			return result;
+	end init_banc;
+
+		-- Déclaration et Initialisation du Banc de Registres 64x32 bits
+	signal Banc: table:=init_banc;
+	
+	begin
+
+		process(CLK)
+			begin 
+				if rising_edge(CLK) then
+
+					if Rst = '1' then 
+					
+					else
+						if WrEn = '1' then 		
+							Banc(to_integer(unsigned(Addr)))<=DataIn;
+						end if;
+					end if ;
+						
+				end if;
+
+		end process;
+		
+		DataOut <= Banc(to_integer(unsigned(Addr)));
+end arc;

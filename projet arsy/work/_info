@@ -7,33 +7,33 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/E2I/Semestre 2/ARSY/projet arsy
+Z0 dD:/Mes_Projets/arsy/projet arsy
 Ealu
-Z0 w1585245404
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/Mes_Projets/arsy/projet arsy
-Z5 8D:/Mes_Projets/arsy/projet arsy/ALU.vhd
-Z6 FD:/Mes_Projets/arsy/projet arsy/ALU.vhd
+Z1 w1585245404
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Mes_Projets/arsy/projet arsy/00_ALU.vhd
+Z6 FD:/Mes_Projets/arsy/projet arsy/00_ALU.vhd
 l0
 L5
 VBPJNi`aC[YnBD4`[S1Td`3
 !s100 LhJGbm@E:O`GlS<z^gF9?0
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1585340064
+Z8 !s110 1585686050
 !i10b 1
-Z9 !s108 1585340064.000000
-Z10 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/ALU.vhd|
-Z11 !s107 D:/Mes_Projets/arsy/projet arsy/ALU.vhd|
+Z9 !s108 1585686050.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/00_ALU.vhd|
+Z11 !s107 D:/Mes_Projets/arsy/projet arsy/00_ALU.vhd|
 !i113 1
 Z12 o-work work
 Z13 tExplicit 1 CvgOpt 0
 Aarc
-R1
 R2
 R3
+R4
 Z14 DEx4 work 3 alu 0 22 BPJNi`aC[YnBD4`[S1Td`3
 l22
 L18
@@ -50,13 +50,13 @@ R11
 R12
 R13
 Ealu_tb
-R0
 R1
 R2
 R3
 R4
-Z15 8D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd
-Z16 FD:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd
+R0
+Z15 8D:/Mes_Projets/arsy/projet arsy/00_ALU_tb.vhd
+Z16 FD:/Mes_Projets/arsy/projet arsy/00_ALU_tb.vhd
 l0
 L5
 V8J9HhUhcbAhlGJgJ4=f4f2
@@ -66,16 +66,16 @@ R7
 R8
 !i10b 1
 R9
-Z17 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd|
-Z18 !s107 D:/Mes_Projets/arsy/projet arsy/ALU_tb.vhd|
+Z17 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/00_ALU_tb.vhd|
+Z18 !s107 D:/Mes_Projets/arsy/projet arsy/00_ALU_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
 R14
-R1
 R2
 R3
+R4
 DEx4 work 6 alu_tb 0 22 8J9HhUhcbAhlGJgJ4=f4f2
 l19
 L10
@@ -92,13 +92,13 @@ R18
 R12
 R13
 Eass_ual_reg
-R0
 R1
 R2
 R3
 R4
-Z19 8D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd
-Z20 FD:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd
+R0
+Z19 8D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg.vhd
+Z20 FD:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg.vhd
 l0
 L5
 V@ahiC4zDgH`9X]G<iAZQV3
@@ -108,17 +108,17 @@ R7
 R8
 !i10b 1
 R9
-Z21 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd|
-Z22 !s107 D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg.vhd|
+Z21 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg.vhd|
+Z22 !s107 D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg.vhd|
 !i113 1
 R12
 R13
 Aarc
 R14
 Z23 DEx4 work 8 registre 0 22 k:]TM4>9joL0UIDhD^oc;2
-R1
 R2
 R3
+R4
 Z24 DEx4 work 11 ass_ual_reg 0 22 @ahiC4zDgH`9X]G<iAZQV3
 l21
 L18
@@ -135,32 +135,32 @@ R22
 R12
 R13
 Eass_ual_reg_tb
-R0
 R1
 R2
 R3
 R4
-Z25 8D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd
-Z26 FD:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd
+R0
+Z25 8D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg_tb.vhd
+Z26 FD:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg_tb.vhd
 l0
 L5
 V`;JbAAiHA:?dUVnJThn]J0
 !s100 NKmQ0`eTN>1:60792HaSQ3
 R7
 32
-R8
+Z27 !s110 1585686051
 !i10b 1
-R9
-Z27 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd|
-Z28 !s107 D:/Mes_Projets/arsy/projet arsy/Ass_ual_reg_tb.vhd|
+Z28 !s108 1585686051.000000
+Z29 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg_tb.vhd|
+Z30 !s107 D:/Mes_Projets/arsy/projet arsy/02_Ass_ual_reg_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
 R24
-R1
 R2
 R3
+R4
 DEx4 work 14 ass_ual_reg_tb 0 22 `;JbAAiHA:?dUVnJThn]J0
 l18
 L9
@@ -168,87 +168,87 @@ V5AL5nj>64nB[jleW4GC?<1
 !s100 O5;?VdidNk4iNA4NHZ=jd2
 R7
 32
-R8
-!i10b 1
-R9
 R27
+!i10b 1
 R28
+R29
+R30
 !i113 1
 R12
 R13
 Eassemblage_ut
-R0
-R1
+Z31 w1585683888
 R2
 R3
 R4
-Z29 8D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd
-Z30 FD:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd
+R0
+Z32 8D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT.vhd
+Z33 FD:/Mes_Projets/arsy/projet arsy/06_assemblage_UT.vhd
 l0
 L5
 VUV7GnNJnDFM7l^3XXYWDl1
 !s100 ZYBl^d>I<d6;H3=]:Kofd1
 R7
 32
-R8
+R27
 !i10b 1
-R9
-Z31 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd|
-Z32 !s107 D:/Mes_Projets/arsy/projet arsy/assemblage_UT.vhd|
+R28
+Z34 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT.vhd|
+Z35 !s107 D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT.vhd|
 !i113 1
 R12
 R13
 Aarc
-Z33 DEx4 work 9 extention 0 22 ;n]83M5VdB8dlD]A[CE@=3
-Z34 DEx4 work 7 memoire 0 22 8KiNI[ffnOC;MalCc;5]N1
-Z35 DEx4 work 4 mux2 0 22 jYJY[Q_@79CW1APfgDZ4E0
+Z36 DEx4 work 9 extention 0 22 ;n]83M5VdB8dlD]A[CE@=3
+Z37 DEx4 work 7 memoire 0 22 8KiNI[ffnOC;MalCc;5]N1
+Z38 DEx4 work 4 mux2 0 22 jYJY[Q_@79CW1APfgDZ4E0
 R14
 R23
-R1
 R2
 R3
-Z36 DEx4 work 13 assemblage_ut 0 22 UV7GnNJnDFM7l^3XXYWDl1
+R4
+Z39 DEx4 work 13 assemblage_ut 0 22 UV7GnNJnDFM7l^3XXYWDl1
 l26
 L20
 VE]Gak3fR2c4`n7z8;CiYP1
 !s100 URR:C5Tj<fG[XbGLk42]>3
 R7
 32
-R8
+R27
 !i10b 1
-R9
-R31
-R32
+R28
+R34
+R35
 !i113 1
 R12
 R13
 Eassemblage_ut_tb
-R0
-R1
+Z40 w1585684035
 R2
 R3
 R4
-Z37 8D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd
-Z38 FD:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd
+R0
+Z41 8D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT_tb.vhd
+Z42 FD:/Mes_Projets/arsy/projet arsy/06_assemblage_UT_tb.vhd
 l0
 L5
 V7mo:Z;cLPg6n`PfJHNjAZ3
 !s100 JbV?S6LAF]Qe1R3?z1Uc[2
 R7
 32
-R8
+R27
 !i10b 1
-R9
-Z39 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd|
-Z40 !s107 D:/Mes_Projets/arsy/projet arsy/assemblage_UT_tb.vhd|
+R28
+Z43 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT_tb.vhd|
+Z44 !s107 D:/Mes_Projets/arsy/projet arsy/06_assemblage_UT_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R36
-R1
+R39
 R2
 R3
+R4
 DEx4 work 16 assemblage_ut_tb 0 22 7mo:Z;cLPg6n`PfJHNjAZ3
 l20
 L9
@@ -256,123 +256,123 @@ VPD_dF:;1E^zGRZ_Folaze1
 !s100 TPnC:jo>76O9_KW6?J?bc3
 R7
 32
-R8
+R27
 !i10b 1
-R9
-R39
-R40
+R28
+R43
+R44
 !i113 1
 R12
 R13
 Edecodeur
-Z41 w1585339979
-R1
+Z45 w1585685806
 R2
 R3
 R4
-Z42 8D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd
-Z43 FD:/Mes_Projets/arsy/projet arsy/Decodeur.vhd
+R0
+Z46 8D:/Mes_Projets/arsy/projet arsy/09_Decodeur.vhd
+Z47 FD:/Mes_Projets/arsy/projet arsy/09_Decodeur.vhd
 l0
 L5
 V=`fGaNF4D^l^IZz7CZURU0
 !s100 YD?SzM3aDbnd1]e9[0g1i2
 R7
 32
-R8
+Z48 !s110 1585686052
 !i10b 1
-R9
-Z44 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd|
-Z45 !s107 D:/Mes_Projets/arsy/projet arsy/Decodeur.vhd|
+Z49 !s108 1585686052.000000
+Z50 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/09_Decodeur.vhd|
+Z51 !s107 D:/Mes_Projets/arsy/projet arsy/09_Decodeur.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-Z46 DEx4 work 8 decodeur 0 22 =`fGaNF4D^l^IZz7CZURU0
-l28
+R4
+Z52 DEx4 work 8 decodeur 0 22 =`fGaNF4D^l^IZz7CZURU0
+l27
 L21
-VW8eJD;`oFWo=V]cE:bbzA3
-!s100 69i]<H?LBk[9DRaV9@ROE1
+VHP58Ef3IOTnH0J@F2P49H3
+!s100 ]<lJN62Q^J]M^41ne3Y^V1
 R7
 32
-R8
+R48
 !i10b 1
-R9
-R44
-R45
+R49
+R50
+R51
 !i113 1
 R12
 R13
 Eextention
-R0
 R1
 R2
 R3
 R4
-Z47 8D:/Mes_Projets/arsy/projet arsy/extention.vhd
-Z48 FD:/Mes_Projets/arsy/projet arsy/extention.vhd
+R0
+Z53 8D:/Mes_Projets/arsy/projet arsy/04_extention.vhd
+Z54 FD:/Mes_Projets/arsy/projet arsy/04_extention.vhd
 l0
 L5
 V;n]83M5VdB8dlD]A[CE@=3
 !s100 gD4:a?P2L3jHWMB[LBf@52
 R7
 32
-R8
+R27
 !i10b 1
-R9
-Z49 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/extention.vhd|
-Z50 !s107 D:/Mes_Projets/arsy/projet arsy/extention.vhd|
+R28
+Z55 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/04_extention.vhd|
+Z56 !s107 D:/Mes_Projets/arsy/projet arsy/04_extention.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-R33
+R4
+R36
 l20
 L16
 V7;z253<XeGRhKJ]PEm<2?0
 !s100 f`JUR^DTXDLM7KMEfz7D@3
 R7
 32
-R8
+R27
 !i10b 1
-R9
-R49
-R50
+R28
+R55
+R56
 !i113 1
 R12
 R13
 Eextention_tb
-R0
 R1
 R2
 R3
 R4
-Z51 8D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd
-Z52 FD:/Mes_Projets/arsy/projet arsy/extention_tb.vhd
+R0
+Z57 8D:/Mes_Projets/arsy/projet arsy/04_extention_tb.vhd
+Z58 FD:/Mes_Projets/arsy/projet arsy/04_extention_tb.vhd
 l0
 L5
 VIPR[jPZl58kOY7eY@kM_I2
 !s100 0L_D^gNThQ3PjGBnQ<>KB3
 R7
 32
-R8
+R27
 !i10b 1
-R9
-Z53 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd|
-Z54 !s107 D:/Mes_Projets/arsy/projet arsy/extention_tb.vhd|
+R28
+Z59 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/04_extention_tb.vhd|
+Z60 !s107 D:/Mes_Projets/arsy/projet arsy/04_extention_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R33
-R1
+R36
 R2
 R3
+R4
 DEx4 work 12 extention_tb 0 22 IPR[jPZl58kOY7eY@kM_I2
 l15
 L9
@@ -380,123 +380,123 @@ VAa:lNYYb4N_IlFfOddX@11
 !s100 nX=HjQBo1k=LI?<]^[HFO0
 R7
 32
-R8
+R27
 !i10b 1
-R9
-R53
-R54
+R28
+R59
+R60
 !i113 1
 R12
 R13
 Ememoire
-R0
-R1
+Z61 w1585625250
 R2
 R3
 R4
-Z55 8D:/Mes_Projets/arsy/projet arsy/memoire.vhd
-Z56 FD:/Mes_Projets/arsy/projet arsy/memoire.vhd
+R0
+Z62 8D:/Mes_Projets/arsy/projet arsy/05_memoire.vhd
+Z63 FD:/Mes_Projets/arsy/projet arsy/05_memoire.vhd
 l0
 L5
 V8KiNI[ffnOC;MalCc;5]N1
 !s100 RonAemYMgCPJSBR`<RKg92
 R7
 32
-R8
+R27
 !i10b 1
-R9
-Z57 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire.vhd|
-Z58 !s107 D:/Mes_Projets/arsy/projet arsy/memoire.vhd|
+R28
+Z64 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/05_memoire.vhd|
+Z65 !s107 D:/Mes_Projets/arsy/projet arsy/05_memoire.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-R34
-l34
+R4
+R37
+l50
 L16
-Viz;TF@_[kJbXzi=DWaHXU1
-!s100 mRXAGH51`j:Bd7fW0O7CI3
+Vh9:89QLlLg2n<6F3naAKV2
+!s100 2SG7fEcc8@SJlN7fjSiV01
 R7
 32
-R8
+R27
 !i10b 1
-R9
-R57
-R58
+R28
+R64
+R65
 !i113 1
 R12
 R13
 Ememoire_instr
-Z59 w1585325781
-R1
+Z66 w1585624467
 R2
 R3
 R4
-Z60 8D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd
-Z61 FD:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd
+R0
+Z67 8D:/Mes_Projets/arsy/projet arsy/07_memoire_instr.vhd
+Z68 FD:/Mes_Projets/arsy/projet arsy/07_memoire_instr.vhd
 l0
 L5
 VM89b9b:7EjzkTO`CVmbHM0
 !s100 hNnm^cM`7QeZKL2@2iXI=3
 R7
 32
-Z62 !s110 1585340065
+R27
 !i10b 1
-R9
-Z63 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd|
-Z64 !s107 D:/Mes_Projets/arsy/projet arsy/memoire_instr.vhd|
+R28
+Z69 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/07_memoire_instr.vhd|
+Z70 !s107 D:/Mes_Projets/arsy/projet arsy/07_memoire_instr.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-Z65 DEx4 work 13 memoire_instr 0 22 M89b9b:7EjzkTO`CVmbHM0
-l38
+R4
+Z71 DEx4 work 13 memoire_instr 0 22 M89b9b:7EjzkTO`CVmbHM0
+l50
 L14
-V4fU`Kg]>>mE>]=C0^>g5_1
-!s100 A48N@ZQ1g<lmU=c?UXaX>1
+V1WDSNH3`RY6SGOSlWeYS[1
+!s100 9YZMmzZozCKY^CP_^fSSh2
 R7
 32
-R62
+R27
 !i10b 1
-R9
-R63
-R64
+R28
+R69
+R70
 !i113 1
 R12
 R13
 Ememoire_tb
-Z66 w1585327294
-R1
+Z72 w1585327294
 R2
 R3
 R4
-Z67 8D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd
-Z68 FD:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd
+R0
+Z73 8D:/Mes_Projets/arsy/projet arsy/05_memoire_tb.vhd
+Z74 FD:/Mes_Projets/arsy/projet arsy/05_memoire_tb.vhd
 l0
 L5
 Vi2dUaDIDaa_^;U1>I@bHe1
 !s100 :=GcgU;lc6K[=4A`WaJe83
 R7
 32
-R62
+R27
 !i10b 1
-Z69 !s108 1585340065.000000
-Z70 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd|
-Z71 !s107 D:/Mes_Projets/arsy/projet arsy/memoire_tb.vhd|
+R28
+Z75 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/05_memoire_tb.vhd|
+Z76 !s107 D:/Mes_Projets/arsy/projet arsy/05_memoire_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R34
-R1
+R37
 R2
 R3
+R4
 DEx4 work 10 memoire_tb 0 22 i2dUaDIDaa_^;U1>I@bHe1
 l16
 L9
@@ -504,82 +504,82 @@ V`L5;6TW;ZLfB>nUPGagTh2
 !s100 ocoP3S;ZgGMCO3B5GEf^d0
 R7
 32
-R62
+R27
 !i10b 1
-R69
-R70
-R71
+R28
+R75
+R76
 !i113 1
 R12
 R13
 Emux2
-R0
 R1
 R2
 R3
 R4
-Z72 8D:/Mes_Projets/arsy/projet arsy/MUX2.vhd
-Z73 FD:/Mes_Projets/arsy/projet arsy/MUX2.vhd
+R0
+Z77 8D:/Mes_Projets/arsy/projet arsy/03_MUX2.vhd
+Z78 FD:/Mes_Projets/arsy/projet arsy/03_MUX2.vhd
 l0
 L5
 VjYJY[Q_@79CW1APfgDZ4E0
 !s100 AN;oK<D<DM;_1a`7B[lGa3
 R7
 32
-R62
+R27
 !i10b 1
-R69
-Z74 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/MUX2.vhd|
-Z75 !s107 D:/Mes_Projets/arsy/projet arsy/MUX2.vhd|
+R28
+Z79 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/03_MUX2.vhd|
+Z80 !s107 D:/Mes_Projets/arsy/projet arsy/03_MUX2.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-R35
+R4
+R38
 l21
 L17
 VTf4OdO1K>CWlGAf^P:Da12
 !s100 >2fSa5GKb?3:_O]Z2QNGk0
 R7
 32
-R62
+R27
 !i10b 1
-R69
-R74
-R75
+R28
+R79
+R80
 !i113 1
 R12
 R13
 Emux2_tb
-R0
 R1
 R2
 R3
 R4
-Z76 8D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd
-Z77 FD:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd
+R0
+Z81 8D:/Mes_Projets/arsy/projet arsy/03_MUX2_tb.vhd
+Z82 FD:/Mes_Projets/arsy/projet arsy/03_MUX2_tb.vhd
 l0
 L5
 V1=LOA8K>]4b]^e9mP2a@52
 !s100 JD3nW5zjX0mB1[bnjnB5Q3
 R7
 32
-R62
+R27
 !i10b 1
-R69
-Z78 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd|
-Z79 !s107 D:/Mes_Projets/arsy/projet arsy/MUX2_tb.vhd|
+R28
+Z83 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/03_MUX2_tb.vhd|
+Z84 !s107 D:/Mes_Projets/arsy/projet arsy/03_MUX2_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R35
-R1
+R38
 R2
 R3
+R4
 DEx4 work 7 mux2_tb 0 22 1=LOA8K>]4b]^e9mP2a@52
 l14
 L9
@@ -587,122 +587,209 @@ V7PgSM9QiBzbE46IkBjhc;0
 !s100 M=NI@abR`S:0^XI0_ON;K3
 R7
 32
-R62
+R27
 !i10b 1
-R69
-R78
-R79
+R28
+R83
+R84
 !i113 1
 R12
 R13
 Epc
-R0
-R1
+Z85 w1585625418
 R2
 R3
 R4
-Z80 8D:/Mes_Projets/arsy/projet arsy/PC.vhd
-Z81 FD:/Mes_Projets/arsy/projet arsy/PC.vhd
+R0
+Z86 8D:/Mes_Projets/arsy/projet arsy/07_PC.vhd
+Z87 FD:/Mes_Projets/arsy/projet arsy/07_PC.vhd
 l0
 L5
 VoZO7EZzS<K;jC2573LOPZ1
 !s100 B`>3^9iYGUTmNFJX=14GO2
 R7
 32
-R62
+R27
 !i10b 1
-R69
-Z82 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/PC.vhd|
-Z83 !s107 D:/Mes_Projets/arsy/projet arsy/PC.vhd|
+R28
+Z88 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/07_PC.vhd|
+Z89 !s107 D:/Mes_Projets/arsy/projet arsy/07_PC.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-Z84 DEx4 work 2 pc 0 22 oZO7EZzS<K;jC2573LOPZ1
+R4
+Z90 DEx4 work 2 pc 0 22 oZO7EZzS<K;jC2573LOPZ1
 l17
 L15
-VKdJl5VK468h?zJ]XTcd8X2
-!s100 2:<Mi=Pa@o=dU2Z>TeoXS0
+VRl9=L2dSc7[aCk3PTb[L=1
+!s100 <P;l57@e?<]GSbCaOUWF>3
 R7
 32
-R62
+R27
 !i10b 1
-R69
-R82
-R83
+R28
+R88
+R89
+!i113 1
+R12
+R13
+Eprocesseur
+Z91 w1585684196
+R2
+R3
+R4
+R0
+Z92 8D:/Mes_Projets/arsy/projet arsy/10_processeur.vhd
+Z93 FD:/Mes_Projets/arsy/projet arsy/10_processeur.vhd
+l0
+L5
+VGWllk[0gKR2fT3kXNeMCc0
+!s100 bmZl6MRa8l6jW015zBjC30
+R7
+32
+R48
+!i10b 1
+R49
+Z94 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/10_processeur.vhd|
+Z95 !s107 D:/Mes_Projets/arsy/projet arsy/10_processeur.vhd|
+!i113 1
+R12
+R13
+Aarc
+R39
+R38
+Z96 DEx4 work 17 unite_de_controle 0 22 KU7`eb^gYgEzJ9oYGlmSl0
+Z97 DEx4 work 19 unite_gestion_instr 0 22 aG:<;9R4bD[I=2ZOB:i8V2
+R2
+R3
+R4
+Z98 DEx4 work 10 processeur 0 22 GWllk[0gKR2fT3kXNeMCc0
+l27
+L12
+VWWkiBR7n4]?[Ig;jz]B421
+!s100 h:>G84PXMCO]oWlb>IBM63
+R7
+32
+R48
+!i10b 1
+R49
+R94
+R95
+!i113 1
+R12
+R13
+Eprocesseur_tb
+Z99 w1585615210
+R2
+R3
+R4
+R0
+Z100 8D:/Mes_Projets/arsy/projet arsy/10_processeur_tb.vhd
+Z101 FD:/Mes_Projets/arsy/projet arsy/10_processeur_tb.vhd
+l0
+L5
+VWBfNdNl3hC[oR1TV1kmkn3
+!s100 I@I8iBBhnVj=eLX24N]n33
+R7
+32
+R48
+!i10b 1
+R49
+Z102 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/10_processeur_tb.vhd|
+Z103 !s107 D:/Mes_Projets/arsy/projet arsy/10_processeur_tb.vhd|
+!i113 1
+R12
+R13
+Aarc
+R98
+R2
+R3
+R4
+Z104 DEx4 work 13 processeur_tb 0 22 WBfNdNl3hC[oR1TV1kmkn3
+l13
+L8
+Z105 Vm55OXYzD8b1i`V_abB9]81
+Z106 !s100 @^M`0RVD32fDTDlbfn_X<3
+R7
+32
+R48
+!i10b 1
+R49
+R102
+R103
 !i113 1
 R12
 R13
 Epsr
-Z85 w1585338196
-R1
+Z107 w1585338196
 R2
 R3
 R4
-Z86 8D:/Mes_Projets/arsy/projet arsy/PSR.vhd
-Z87 FD:/Mes_Projets/arsy/projet arsy/PSR.vhd
+R0
+Z108 8D:/Mes_Projets/arsy/projet arsy/09_PSR.vhd
+Z109 FD:/Mes_Projets/arsy/projet arsy/09_PSR.vhd
 l0
 L5
 VdF`7KPj?Xd;:ICiDQ]Si30
 !s100 ]bK_GEBji2`3MhiS4d3WE0
 R7
 32
-R62
+R48
 !i10b 1
-R69
-Z88 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/PSR.vhd|
-Z89 !s107 D:/Mes_Projets/arsy/projet arsy/PSR.vhd|
+R49
+Z110 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/09_PSR.vhd|
+Z111 !s107 D:/Mes_Projets/arsy/projet arsy/09_PSR.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
-Z90 DEx4 work 3 psr 0 22 dF`7KPj?Xd;:ICiDQ]Si30
+R4
+Z112 DEx4 work 3 psr 0 22 dF`7KPj?Xd;:ICiDQ]Si30
 l18
 L15
 VhZ8_gQTbNSV>zbLEXEDkC0
 !s100 hW>@@IHem6U3kdhFE^J]i0
 R7
 32
-R62
+R48
 !i10b 1
-R69
-R88
-R89
+R49
+R110
+R111
 !i113 1
 R12
 R13
 Eregistre
-R0
 R1
 R2
 R3
 R4
-Z91 8D:/Mes_Projets/arsy/projet arsy/Registre.vhd
-Z92 FD:/Mes_Projets/arsy/projet arsy/Registre.vhd
+R0
+Z113 8D:/Mes_Projets/arsy/projet arsy/01_Registre.vhd
+Z114 FD:/Mes_Projets/arsy/projet arsy/01_Registre.vhd
 l0
 L5
 Vk:]TM4>9joL0UIDhD^oc;2
 !s100 eQd>0dP78ZO:WAeM2O?R@2
 R7
 32
-R62
+R8
 !i10b 1
-R69
-Z93 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Registre.vhd|
-Z94 !s107 D:/Mes_Projets/arsy/projet arsy/Registre.vhd|
+R9
+Z115 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/01_Registre.vhd|
+Z116 !s107 D:/Mes_Projets/arsy/projet arsy/01_Registre.vhd|
 !i113 1
 R12
 R13
 Aarc
-R1
 R2
 R3
+R4
 R23
 l34
 L16
@@ -710,41 +797,41 @@ Via7U_mfIRK7Fc4^cUZ>Ie1
 !s100 [Ab]V<3;K@hEnW@XJ<Xj00
 R7
 32
-R62
+R8
 !i10b 1
-R69
-R93
-R94
+R9
+R115
+R116
 !i113 1
 R12
 R13
 Eregistre_tb
-R0
 R1
 R2
 R3
 R4
-Z95 8D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd
-Z96 FD:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd
+R0
+Z117 8D:/Mes_Projets/arsy/projet arsy/01_Registre_tb.vhd
+Z118 FD:/Mes_Projets/arsy/projet arsy/01_Registre_tb.vhd
 l0
 L5
 VK^Z7HiJjC[mR8Q=b@fmMJ2
 !s100 2iT0bc9SXV;=9l6`hzh`C0
 R7
 32
-R62
+R8
 !i10b 1
-R69
-Z97 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd|
-Z98 !s107 D:/Mes_Projets/arsy/projet arsy/Registre_tb.vhd|
+R9
+Z119 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/01_Registre_tb.vhd|
+Z120 !s107 D:/Mes_Projets/arsy/projet arsy/01_Registre_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
 R23
-R1
 R2
 R3
+R4
 DEx4 work 11 registre_tb 0 22 K^Z7HiJjC[mR8Q=b@fmMJ2
 l15
 L9
@@ -752,183 +839,142 @@ VHzMOKMj]TF;ae`RhF`EXL2
 !s100 @6z?82HA^d2gZ`[lPl@In3
 R7
 32
-R62
+R8
 !i10b 1
-R69
-R97
-R98
+R9
+R119
+R120
 !i113 1
 R12
 R13
 Eunite_de_controle
-Z99 w1585340049
-R1
+Z121 w1585684106
 R2
 R3
 R4
-Z100 8D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd
-Z101 FD:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd
+R0
+Z122 8D:/Mes_Projets/arsy/projet arsy/09_unite_de_controle.vhd
+Z123 FD:/Mes_Projets/arsy/projet arsy/09_unite_de_controle.vhd
 l0
 L5
 VKU7`eb^gYgEzJ9oYGlmSl0
 !s100 dj`3IAM:Icdf1QK?7^0_U1
 R7
 32
-R62
+R48
 !i10b 1
-R69
-Z102 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd|
-Z103 !s107 D:/Mes_Projets/arsy/projet arsy/unite_de_controle.vhd|
+R49
+Z124 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/09_unite_de_controle.vhd|
+Z125 !s107 D:/Mes_Projets/arsy/projet arsy/09_unite_de_controle.vhd|
 !i113 1
 R12
 R13
 Aarc
-R90
-R46
-R1
+R112
+R52
 R2
 R3
-DEx4 work 17 unite_de_controle 0 22 KU7`eb^gYgEzJ9oYGlmSl0
+R4
+R96
 l29
 L23
 VD=BXfB2<^mJ`^kKiN[F9P3
 !s100 `a<kY<_K4>Ehe4H@ni[jH1
 R7
 32
-R62
+R48
 !i10b 1
-R69
-R102
-R103
-!i113 1
-R12
-R13
-Eunite_de_controle_psr
-Z104 w1585326107
-R1
-R2
-R3
-R4
-R100
-R101
-l0
-L5
-VlD9HNNn`]M4U7@G0Mn?:L0
-!s100 DG]M9fL]OB1U0E6Y>YYQ31
-R7
-32
-Z105 !s110 1585326116
-!i10b 1
-Z106 !s108 1585326116.000000
-R102
-R103
-!i113 1
-R12
-R13
-Aarc
-R1
-R2
-R3
-DEx4 work 21 unite_de_controle_psr 0 22 lD9HNNn`]M4U7@G0Mn?:L0
-l18
-L15
-V[nd`Xj09D:HF2Zh5Lc6SX1
-!s100 T=h8I^;YS<o;JE3j@m?X]2
-R7
-32
-R105
-!i10b 1
-R106
-R102
-R103
+R49
+R124
+R125
 !i113 1
 R12
 R13
 Eunite_gestion_instr
-R59
-R1
+Z126 w1585615102
 R2
 R3
 R4
-Z107 8D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd
-Z108 FD:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd
+R0
+Z127 8D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr.vhd
+Z128 FD:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr.vhd
 l0
 L5
 VaG:<;9R4bD[I=2ZOB:i8V2
 !s100 OPKk;^`Q<o?L=`nDFfN`V0
 R7
 32
-R62
+R27
 !i10b 1
-R69
-Z109 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd|
-Z110 !s107 D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr.vhd|
+R28
+Z129 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr.vhd|
+Z130 !s107 D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr.vhd|
 !i113 1
 R12
 R13
 Aarc
-R33
-R65
-R35
+R36
+R71
+R38
 R14
-R84
-R1
+R90
 R2
 R3
-Z111 DEx4 work 19 unite_gestion_instr 0 22 aG:<;9R4bD[I=2ZOB:i8V2
-l21
+R4
+R97
+l22
 L15
-VRA_aJ5UK>iVPn=dS[[J?j3
-!s100 64m7BCAn_4T<45_D1QPBD3
+V2UK0172gdnc_bz7QN2^[J0
+!s100 KHMP>>j217dbl?>k8eFH90
 R7
 32
-R62
+R27
 !i10b 1
-R69
-R109
-R110
+R28
+R129
+R130
 !i113 1
 R12
 R13
 Eunite_gestion_instr_tb
-R59
-R1
+Z131 w1585325781
 R2
 R3
 R4
-Z112 8D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd
-Z113 FD:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd
+R0
+Z132 8D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr_tb.vhd
+Z133 FD:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr_tb.vhd
 l0
 L5
 VKHnAeig>z2OM2MiB79FmB2
 !s100 lJGAI_cFC2OdiH[8ajD8=1
 R7
 32
-R62
+R48
 !i10b 1
-R69
-Z114 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd|
-Z115 !s107 D:/Mes_Projets/arsy/projet arsy/unite_gestion_instr_tb.vhd|
+R28
+Z134 !s90 -reportprogress|300|-work|work|D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr_tb.vhd|
+Z135 !s107 D:/Mes_Projets/arsy/projet arsy/07_unite_gestion_instr_tb.vhd|
 !i113 1
 R12
 R13
 Aarc
-R111
-R1
+R97
 R2
 R3
-Z116 DEx4 work 22 unite_gestion_instr_tb 0 22 KHnAeig>z2OM2MiB79FmB2
+R4
+DEx4 work 22 unite_gestion_instr_tb 0 22 KHnAeig>z2OM2MiB79FmB2
 l15
 L9
-Z117 V8SFeYk2I2J]e5llGmkJY`1
-Z118 !s100 RfkAO]NF01imiAFU>l3na0
+V8SFeYk2I2J]e5llGmkJY`1
+!s100 RfkAO]NF01imiAFU>l3na0
 R7
 32
-R62
+R48
 !i10b 1
-R69
-R114
-R115
+R28
+R134
+R135
 !i113 1
 R12
 R13

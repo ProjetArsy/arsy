@@ -1,0 +1,8 @@
+add wave -position end  sim:/processeur_tb/CLK
+add wave -position end  sim:/processeur_tb/uut_processeur/uut_unite_gestion_instr/Addr
+add wave -position end  sim:/processeur_tb/uut_processeur/uut_unite_de_controle/uut_decodeur/instr_courante
+add wave -position end  sim:/processeur_tb/uut_processeur/uut_assemblage_UT/uut_registre/Banc
+add wave -position end  sim:/processeur_tb/uut_processeur/uut_assemblage_UT/uut_memoire/Banc
+add wave -position end  sim:/processeur_tb/uut_processeur/instruction
+add wave -position end  sim:/processeur_tb/uut_processeur/nPCsel
+add wave -position end  sim:/processeur_tb/uut_processeur/Offset
